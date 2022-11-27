@@ -33,18 +33,17 @@ export default function Home() {
         <Hero />
         <img className='absolute top-0 left-0 z-50' src="./haze.png" alt="" />
       </div>
-      <div className='w-full' style={
+      <div className='w-full h-[1000px] md:h-[700px]'  style={
         {
           backgroundImage: `url(${tamebg.src})`,
-          backgroundPosition : 'center',
+          backgroundPosition : 'cover',
           backgroundRepeat : 'no-repeat',
           backgroundSize : 'cover',
           width: '100%',
-          height: '1110px',
         }
       }>
       <Zoom>
-        <h1 className='text-center text-[70px] o-text leading-[4.8rem] pt-[140px] font-medium'>Designed for swift payments, transparency,<br /> and instant settlement.</h1>
+        <h1 className='text-center text-[50px] lg:text-[30px] o-text leading-[3.6rem] lg:leading-[2.6rem] pt-[140px] font-medium'>Designed for swift payments, transparency,<br /> and instant settlement.</h1>
       </Zoom>
       </div>
       <CardHero />

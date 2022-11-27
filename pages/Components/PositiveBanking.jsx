@@ -4,9 +4,10 @@ import Zoom from 'react-reveal/Zoom'
 const PositiveBanking = () => {
   return (
     
-    <div className='w-full h-[1500px] py-28 '>
+    <div className='w-full h-[1200px] py-28 '>
+        <div className="w-[80%] mx-auto">
         <Zoom>
-        <h1 className='text-[70px] text-center mt-4 o-text'>Positive banking at your fingertips. </h1>
+        <h1 className='text-[60px] text-center mt-4 o-text'>Positive banking at your fingertips. </h1>
         <div className='w-full flex justify-center items-center my-4'>
             <div className=' flex w-[400px] h-[50px] bg-gray-300 my-4 rounded-md'>
                     <div className='w-1/2 px-5 py-2 flex items-center justify-center border-r-2'>
@@ -29,6 +30,7 @@ const PositiveBanking = () => {
             </button>
         </div>
         </Zoom>
+        </div>
     </div>
   )
 }

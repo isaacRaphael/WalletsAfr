@@ -4,14 +4,14 @@ import Fade from 'react-reveal/Fade'
 
 const OurBlog = () => {
   return (
-    <div className='flex w-full h-[1300px] bg-white flex-col'>
+    <div className='flex w-full h-[1100px] bg-white flex-col'>
 
         <div className='w-[80%] mx-auto py-28'>
             <Fade>
-            <h1 className='text-6xl font-semibold o-text'>Our Blog</h1>
+            <h1 className='text-4xl font-semibold o-text'>Our Blog</h1>
             <div className='w-full flex justify-between mt-4'>
-                <h1 className='font-semibold text-xl'>Checkout post on what we have been up to...</h1>
-                <h1 className='text-[#5C2799] text-xl'>View all posts</h1>
+                <h1 className='font-semibold text-lg'>Checkout post on what we have been up to...</h1>
+                <h1 className='text-[#5C2799] text-lg'>View all posts</h1>
             </div>
             </Fade>
             <Zoom right>
